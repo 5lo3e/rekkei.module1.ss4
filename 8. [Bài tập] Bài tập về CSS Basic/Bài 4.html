@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input{ 
+        padding:8px ;
+        border-radius: 5px;
+        width: 400px;
+        }
+    label{
+        
+        display: inline-block;
+        margin: 10px;
+        margin-left: 0px;
+    }
+    #send{
+        width: 50px;
+        background-color: black;
+        color: white;
+    }
+    body{
+        display: inline-block;
+        background-color: rgb(193, 193, 193);
+    }
+    header{
+        text-align: center;
+        
+    }
+    main{
+        background-color: aliceblue;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Tuyển dụng</h1>
+    </header>
+    <main>
+        <div>
+            <label for="fullname">Họ và tên:</label><br>
+            <input type="text" id="fullname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email"><br>
+            <label for="phonenumber">Số điện thoại:</label><br>
+            <input type="number" id="phonenumber"><br>
+            <label for="cv">CV:</label><br>
+            <input type="file" value="Choose File"><br>
+            
+            <label for="messenger">Tin nhắn:</label><br>
+            <input type="text" id="messenger"><br><br>
+            <input type="submit" id="send" value="Gửi">
+        </div>
+    </main>
+</body>
+
+</html>

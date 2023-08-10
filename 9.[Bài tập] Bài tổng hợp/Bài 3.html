@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #image {
+            width: 200px;
+            height: 80px;
+            display: flex;
+            padding: 10px 10px;
+        }
+
+        input {
+            padding: 7px;
+            margin: 6px;
+            border-radius: 8px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    <header>
+        <h1>Select Card</h1>
+    </header>
+    <main>
+        <div id="image">
+            <img src="./img/MasterCard.svg" alt="">
+            <img src="./img/Momo.svg" alt="">
+            <img src="./img/VISA.svg" alt="">
+            <img src="./img/Vnpay.svg" alt="">
+
+        </div>
+        <form action="#">
+
+            <table>`
+                <tr>
+                    <td colspan="2"> <label for="numberCard">Card Number</label><br>
+                        <input type="number" id="numberCard" style="width: 320px;"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Expiry Date</th>
+                    <th>CVC/CVV</th>
+                </tr>
+                <tr>
+                    <td><input type="date"></td>
+                    <td><input type="password"></td>
+                </tr>
+
+            </table>
+            <input type="submit" value="save" style="border-radius: 20px; padding: 10px 50px; margin-left: 100px ; background-color: rgb(46, 46, 249);">
+        </form>
+    </main>
+</body>
+
+</html>

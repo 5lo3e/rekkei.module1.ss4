@@ -1,0 +1,32 @@
+
+h1{
+   text-align: center;
+   background-color: black;
+   color: white;
+   margin: 0;
+   padding: 30px 10px;
+
+}
+ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+li:hover{
+    background-color: red;
+}
+header div{
+    background-color: gray;
+    padding: 10px;
+}
+.mucluc{
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+main{
+    background-color: bisque;
+}
